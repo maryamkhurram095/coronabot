@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>
+        <b>Hello,</b>Welcome to Corona Bot
+        <image>https://www.userlike.com/api/proxy/resize/introducing-corona-chatbot/header.png?height=720</image>
+        <button>
+            <text>Start Screening</text>
+            <postback>screening</postback>
+        </button>
+        <button>
+            <text>what is Covid-19?</text>
+            <postback>covid</postback>
+        </button>
+        <button>
+            <text>How does it spread?</text>
+            <postback>spread</postback>
+        </button>
+        <button>
+            <text>How many person infected in Pakistan?</text>
+            <postback>pakistan</postback>
+        </button>
+    </template>
+  </category>
+  
+  <category>
+      <pattern>covid</pattern>
+      <template>
+          COVID-19 is an infectious disease caused by a newly discovered strain of coronavirus, 
+          a type of virus known to cause respiratory infections in humans.
+           <button>
+            <text>Start Screening</text>
+            <postback>screening</postback>
+          </button>
+          <button>
+            <text>what is Covid-19?</text>
+            <postback>covid</postback>
+          </button>
+          <button>
+            <text>How does it spread?</text>
+            <postback>spread</postback>
+          </button>
+          <button>
+            <text>How many person infected in Pakistan?</text>
+            <postback>pakistan</postback>
+          </button>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>spread</pattern>
+      <template>
+          The virus is thought to spread mainly between people who are in close contact with one another
+          (within about 6 feet),through respiratory droplets produced when an infected person coughs or sneezes.
+          These droplets can land in the mouths or noses of people who are near by or possibly be inhaled into lungs.
+           <button>
+            <text>Start Screening</text>
+            <postback>screening</postback>
+          </button>
+          <button>
+            <text>what is Covid-19?</text>
+            <postback>covid</postback>
+          </button>
+          <button>
+            <text>How does it spread?</text>
+            <postback>spread</postback>
+          </button>
+          <button>
+            <text>How many person infected in Pakistan?</text>
+            <postback>pakistan</postback>
+          </button>
+          <button>
+              <text>How can I protect myself?</text>
+              <postback>protect</postback>
+          </button>
+      </template>
+  </category>
+  <category>
+      <pattern>pakistan</pattern>
+      <template>
+          <b>Total Cases:</b>132,663
+          <image>https://i.dawn.com/primary/2020/04/5e9f6fc8bb5a7.jpg</image>
+           <button>
+            <text>Start Screening</text>
+            <postback>screening</postback>
+          </button>
+          <button>
+            <text>what is Covid-19?</text>
+            <postback>covid</postback>
+          </button>
+          <button>
+            <text>How does it spread?</text>
+            <postback>spread</postback>
+          </button>
+          <button>
+            <text>How many person infected in Pakistan?</text>
+            <postback>pakistan</postback>
+          </button>
+          <button>
+              <text>How can I protect myself?</text>
+              <postback>protect</postback>
+          </button>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>protect</pattern>
+      <template>
+          <ul>
+              <li>Wearing mask</li>
+              <li>Avoid touching your face</li>
+              <li>Keep distance</li>
+              <li>Wash your hand</li>
+              <li>Stay home</li>
+          </ul>
+          <button>
+            <text>Start Screening</text>
+            <postback>screening</postback>
+        </button>
+        <button>
+            <text>what is Covid-19?</text>
+            <postback>covid</postback>
+        </button>
+        <button>
+            <text>How does it spread?</text>
+            <postback>spread</postback>
+        </button>
+        <button>
+            <text>How many person infected in Pakistan?</text>
+            <postback>pakistan</postback>
+        </button>
+      </template>
+  </category>
+  
+</aiml>
